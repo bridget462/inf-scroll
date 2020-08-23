@@ -30,8 +30,8 @@ function displayPhotos() {
     const img = document.createElement("img");
     setAttributes(img, {
       src: photo.urls.regular,
-      alt: photo.alt,
-      title: photo.alt,
+      alt: photo.alt_description,
+      title: photo.alt_description,
     });
     // Put <img> inside <a>, then put both inside imageContainer Element
     item.appendChild(img);
